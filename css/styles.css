@@ -17,6 +17,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(64.3deg, rgba(254, 122, 152, 0.81) 17.7%, rgba(255, 206, 134, 1) 64.7%, rgba(172, 253, 163, 0.64) 112.1%);
+  border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -36,7 +37,7 @@ html {
 .navbar {
   position: fixed !important;
   width: 100%;
-  background: black;
+  background: transparent;
   transition: all 0.3s ease;
   padding: 10px !important;
   z-index: 0;
@@ -106,7 +107,7 @@ html {
 
 .home-section {
     /* background-image: linear-gradient(64.3deg, rgba(254, 122, 152, 0.81) 17.7%, rgba(255, 206, 134, 1) 64.7%, rgba(172, 253, 163, 0.64) 112.1%); */
-  background-image: linear-gradient(to bottom, #95e1d3, #a4e7d1, #b3edcf, #c3f3ce, #d4f8ce, #dbf9c9, #e2f9c3, #ebf9be, #edf4b1, #f1efa3, #f6e996, #fce38a);
+  background-image: linear-gradient(to left bottom, #a84373, #a2548b, #99649f, #8e74af, #8382b9, #7b82b9, #7381b9, #6b81b8, #6273b1, #5b65a9, #5556a1, #524797);
   background-size: cover;
   display: flex;
 }
@@ -131,15 +132,15 @@ html {
   object-fit: cover;
 }
 
-.home-text {
-  font-size: 45px;
+.home-text h1{
+  font-size: 55px;
   font-weight: 600;
   margin-bottom: 10px;
+  font-family: "Gt Alpina Extended-Thin", serif;;
 }
 
 .home-text {
-  width: 100%;
-  color: black;
+  color: white;
 }
 
 .home-span {
@@ -151,9 +152,9 @@ html {
 .home-para {
   width: 45%;
   font-size: 25px;
-  text-align: justify;
   margin: auto;
   padding-top: 100px;
+  color: white;
 }
 
 /* about section */
@@ -196,7 +197,7 @@ html {
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   body {
     height: 245%;
   }
@@ -206,7 +207,7 @@ html {
   body {
     height: 235%;
   }
-}
+} */
 
 @media (max-width: 1104px) {
   .about-img, .home-img {
@@ -268,6 +269,7 @@ html {
   list-style-type: none;
   align-items: center;
   margin-right: 40px;
+
 }
 
 .skill-box>.skills-circle>ul>li {
@@ -279,6 +281,7 @@ html {
   display: inline-block;
   overflow: hidden;
   margin: 50px 50px;
+  box-shadow: 2px 4px 15px grey;
 }
 
 .skill-box>.skills-circle>ul>li>span {
