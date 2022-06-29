@@ -37,7 +37,7 @@ html {
 .navbar {
   position: fixed !important;
   width: 100%;
-  background: transparent;
+  background: transparent; 
   transition: all 0.3s ease;
   padding: 10px !important;
   z-index: 0;
@@ -260,11 +260,11 @@ html {
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.skill-box>h3 {
+.skill-box h3 {
   font-size: 60px;
 }
 
-.skill-box>.skills-circle>ul {
+.skill-box .skills-circle ul {
   text-align: center;
   list-style-type: none;
   align-items: center;
@@ -272,7 +272,7 @@ html {
 
 }
 
-.skill-box>.skills-circle>ul>li {
+.skill-box .skills-circle ul li {
   width: 150px;
   height: 150px;
   background-color: #ddd;
@@ -284,11 +284,11 @@ html {
   box-shadow: 2px 4px 15px grey;
 }
 
-.skill-box>.skills-circle>ul>li>span {
+.skill-box .skills-circle ul li span {
   color: #7a7;
 }
 
-.skill-box>.skills-circle>ul>li>span.text, .skill-box>.skills-circle>ul>li>span~b {
+.skill-box .skills-circle ul li span.text, .skill-box .skills-circle ul li span~b {
   top: 50%;
   left: 50%;
   position: absolute;
@@ -299,12 +299,12 @@ html {
   top: 50px;
 }
 
-.skill-box>.skills-circle>ul>li>span.text~b, .skill-box>.skills-circle>ul>li>span~b~b {
+.skill-box .skills-circle ul li span.text~b, .skill-box .skills-circle ul li span~b~b {
   font-weight: normal;
   margin-top: 35px;
 }
 
-.skill-box>.skills-circle>ul>li>span.bar-circle-right, .skill-box>.skills-circle>ul>li>span.bar-circle-left {
+.skill-box .skills-circle ul li span.bar-circle-right, .skill-box .skills-circle ul li span.bar-circle-left {
   border-radius: 50%;
   position: absolute;
   display: block;
@@ -314,11 +314,11 @@ html {
   clip: rect(0, 75px, 150px, 0);
 }
 
-.skill-box>.skills-circle>ul>li>span.bar-circle-left {
+.skill-box .skills-circle ul li span.bar-circle-left {
   background: #ddd;
 }
 
-.skill-box>.skills-circle>ul>li>span.bar-circle-cover {
+.skill-box .skills-circle ul li span.bar-circle-cover {
   display: block;
   width: 95%;
   height: 95%;
@@ -331,73 +331,4 @@ html {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.qualification__tabs {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--m-3-2);
-}
-
-.qualification__button {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-  cursor: pointer;
-}
-
-.qualification__button:hover {
-  color: var(--primary-color);
-}
-
-.qualification__icon {
-  font-size: 3rem;
-  margin-right: 0.4rem;
-}
-
-.qualification__data {
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  column-gap: 2.4rem;
-}
-
-.qualification__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-}
-
-.qualification__subtitle {
-  display: inline-block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--m-1-6);
-}
-
-.qualification__calender {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
-.qualification__rounder {
-  display: inline-block;
-  width: 1.3rem;
-  height: 1.3rem;
-  background-color: var(--primary-color);
-  border-radius: 50%;
-}
-
-.qualification__line {
-  display: block;
-  width: 1px;
-  height: 100%;
-  background-color: var(--primary-color);
-  transform: translate(0.6rem, -0.7rem);
-}
-
-/* hide work and education */
-.qualification [data-content] {
-  display: none;
-}
-
-/* unhide education  */
-.qualification__active[data-content] {
-  display: block;
 }
