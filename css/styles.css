@@ -37,7 +37,7 @@ html {
 .navbar {
   position: fixed !important;
   width: 100%;
-  background: transparent; 
+  background: transparent;
   transition: all 0.3s ease;
   padding: 10px !important;
   z-index: 0;
@@ -195,6 +195,10 @@ html {
   width: 55%;
   text-align: justify;
   color: white;
+}
+
+.about-para p {
+  font-size: 19px;
 }
 
 /* @media only screen and (max-width: 800px) {
