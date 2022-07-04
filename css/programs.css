@@ -49,3 +49,7 @@ body {
 .active:after {
   content: "\2796";
 }
+
+.project-frames {
+  height: 30rem;
+}
