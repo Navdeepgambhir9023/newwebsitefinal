@@ -1,0 +1,129 @@
+/* Home, About and Max Width Media quries */
+@media (max-width: 1104px) {
+    {
+    .about-img, .home-img {
+      height: 350px;
+      width: 350px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .max-width {
+      padding: 0 50px;
+    }
+  }
+
+  @media (max-width: 947px) {
+    .max-width {
+      max-width: 930px;
+    }
+
+    .about-para, .home-para {
+      width: 100%;
+      flex: 100%;
+    }
+
+    .about-img, .home-img {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 60px;
+      width: 100%;
+    }
+
+    @media (max-width: 500px) {
+      .about-para, .home-para {
+        font-size: 19px;
+      }
+    }
+  }
+}
+
+/* Svg Width and Body Height media Quries */
+@media (min-width: 200px) {
+    svg {
+      width: 656px;
+    }
+  }
+
+  @media (min-width: 300px) {
+    svg {
+      width: 656px;
+    }
+
+    body {
+      height: 117rem;
+    }
+  }
+
+  @media (min-width: 600px) {
+    svg {
+      width: 668px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    svg {
+      width: 768px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    svg {
+      width: 820px;
+    }
+
+    body {
+      height: 113rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    svg {
+      width: 912px;
+    }
+
+    body {
+      height: 104rem;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    svg {
+      width: 1024px;
+    }
+
+    body {
+      height: 97rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    svg {
+      width: 1280px;
+    }
+
+    body {
+      height: 75rem;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    svg {
+      width: 1356px;
+    }
+
+    body {
+      height:
+    }
+  }
+
+  @media (min-width: 1400px) {
+    svg {
+      width: 1456px;
+    }
+
+    body {
+      height:
+    }
+  }
+}

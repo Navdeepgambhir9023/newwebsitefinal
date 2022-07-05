@@ -1,5 +1,5 @@
 body {
-  height: 280%;
+  height: 300%;
 }
 
 html {
@@ -198,55 +198,6 @@ html {
 
 .about-para p {
   font-size: 19px;
-}
-
-/* @media only screen and (max-width: 800px) {
-  body {
-    height: 245%;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  body {
-    height: 235%;
-  }
-} */
-
-@media (max-width: 1104px) {
-  .about-img, .home-img {
-    height: 350px;
-    width: 350px;
-  }
-}
-
-@media (max-width: 991px) {
-  .max-width {
-    padding: 0 50px;
-  }
-}
-
-@media (max-width: 947px) {
-  .max-width {
-    max-width: 930px;
-  }
-
-  .about-para, .home-para {
-    width: 100%;
-    flex: 100%;
-  }
-
-  .about-img, .home-img {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-    width: 100%;
-  }
-
-  @media (max-width: 500px) {
-    .about-para, .home-para {
-      font-size: 19px;
-    }
-  }
 }
 
 .skill-section {
