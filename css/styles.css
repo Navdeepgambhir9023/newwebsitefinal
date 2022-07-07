@@ -1,5 +1,5 @@
 body {
-  height: 300%;
+  height: 400%;
 }
 
 html {
@@ -103,9 +103,8 @@ html {
 ==============================================
 ============================================== */
 /* Section 1 */
-
 .home-section {
-    /* background-image: linear-gradient(64.3deg, rgba(254, 122, 152, 0.81) 17.7%, rgba(255, 206, 134, 1) 64.7%, rgba(172, 253, 163, 0.64) 112.1%); */
+  /* background-image: linear-gradient(64.3deg, rgba(254, 122, 152, 0.81) 17.7%, rgba(255, 206, 134, 1) 64.7%, rgba(172, 253, 163, 0.64) 112.1%); */
   background-image: linear-gradient(to left bottom, #a84373, #a2548b, #99649f, #8e74af, #8382b9, #7b82b9, #7381b9, #6b81b8, #6273b1, #5b65a9, #5556a1, #524797);
   background-size: cover;
   display: flex;
@@ -123,6 +122,7 @@ html {
   height: 390px;
   width: 400px;
   margin-right: 100px;
+  margin: auto;
 }
 
 .home-logo {
@@ -131,11 +131,12 @@ html {
   object-fit: cover;
 }
 
-.home-text h1{
+.home-text h1 {
   font-size: 55px;
   font-weight: 600;
   margin-bottom: 10px;
-  font-family: "Gt Alpina Extended-Thin", serif;;
+  font-family: "Gt Alpina Extended-Thin", serif;
+  ;
 }
 
 .home-text {
@@ -160,6 +161,11 @@ html {
 .about-me {
   background-color: black;
   padding: 100px 0px;
+}
+
+.svg {
+  width: 15%;
+  float: right;
 }
 
 .about-content {
@@ -200,6 +206,7 @@ html {
   font-size: 19px;
 }
 
+/* Skills Section */
 .skill-section {
   background-size: cover;
   display: flex;
@@ -209,12 +216,12 @@ html {
   width: 100%;
   padding-top: 85px;
   text-align: center;
-  background-color: #eee;
+  background-color: ;
   border-radius: 5px;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.skill-box h3 {
+.skill-box h1 {
   font-size: 60px;
 }
 
@@ -223,7 +230,6 @@ html {
   list-style-type: none;
   align-items: center;
   margin-right: 40px;
-
 }
 
 .skill-box .skills-circle ul li {
@@ -239,7 +245,7 @@ html {
 }
 
 .skill-box .skills-circle ul li span {
-  color: #7a7;
+  color: #a2548b;
 }
 
 .skill-box .skills-circle ul li span.text, .skill-box .skills-circle ul li span~b {
@@ -264,7 +270,7 @@ html {
   display: block;
   width: 100%;
   height: 100%;
-  background: #B0DAB9;
+  background: #6b81b8;
   clip: rect(0, 75px, 150px, 0);
 }
 
@@ -285,4 +291,156 @@ html {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.border-shape {
+  background: #a84373 none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  height: 3px;
+  left: 0;
+  margin: 20px auto;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 80px;
+}
+
+.border-shape::before {
+  background: #a84373 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 80px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 100px;
+}
+
+.border-shape::after {
+  background: #a84373 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  margin: 0 auto;
+  position: absolute;
+  right: 80px;
+  text-align: center;
+  top: 1px;
+  width: 100px;
+}
+
+
+/* Qualification Section */
+
+.qualification {
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualification-content {
+  margin: auto;
+  text-align: center;
+  margin: 50px;
+  height: 100%;
+}
+
+.qualification-content h1 {
+  font-size: 60px;
+  padding: 90px;
+}
+
+.qualification-sub-content {
+  padding: 15px;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #121619;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+}
+
+.footer-container {
+  padding: 7%;
+}
+
+.header-content {
+  margin: 0px 50px 0px 50px;
+}
+
+.top_header {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.top_header section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.top_header span {
+  padding: 0 1rem;
+}
+
+.top_header .fa {
+  color: #a84373;
+  font-size: 35px;
+}
+
+footer .border-shape {
+  width: 40%;
+}
+
+footer .border-shape::before {
+  width: 100%;
+  left: 120px;
+}
+
+footer .border-shape::after {
+  width: 100%;
+  right: 120px;
+}
+
+footer .bottom_content section {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: Center;
+}
+
+.bottom_content a {
+  margin: 20px 50px 20px 50px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.5s;
+}
+
+.social-media-anchors {
+  background-color: white;
+}
+
+.bottom_content a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.copyright {
+  padding: 0.8em 0;
+  background-color: #1e1e1e;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
 }
