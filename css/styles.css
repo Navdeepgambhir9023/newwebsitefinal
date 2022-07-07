@@ -358,7 +358,7 @@ html {
 
 /*FOOTER*/
 .footer {
-  background-color: #121619;
+  background-color: #1e1e1e;
   width: 100%;
   color: #fff;
   background-size: cover;
@@ -420,14 +420,50 @@ footer .bottom_content section {
   justify-content: Center;
 }
 
+.social-ul {
+  text-align: center;
+}
+
+.social-li {
+  display: inline-block;
+  list-style: none;
+  margin: 50px 20px;
+}
+
+.social-li .fa {
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.social-li .fa-facebook:hover {
+  transition: .9s;
+  color: #3B5998;
+}
+
+.social-li .fa-twitter:hover {
+  transition: .9s;
+  color: #1DA1F2;
+}
+
+.social-li .fa-github:hover {
+  transition: .9s;
+  color: #6e5494;
+}
+
+.social-li .fa-linkedin:hover {
+  transition: .9s;
+  color: #0072b1;
+}
+
+.social-li .fa-instagram:hover {
+  transition: .9s;
+  color: #cd486b;
+}
+
 .bottom_content a {
   margin: 20px 50px 20px 50px;
   color: rgba(255, 255, 255, 0.7);
   transition: 0.5s;
-}
-
-.social-media-anchors {
-  background-color: white;
 }
 
 .bottom_content a:hover {
