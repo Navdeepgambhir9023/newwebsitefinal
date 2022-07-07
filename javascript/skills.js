@@ -1,5 +1,5 @@
-$(document).ready(function () {
-  $('.skill-box').find('b').each(function (i) {
+$(document).ready(function() {
+  $('.skill-box').find('b').each(function(i) {
     return $(this).prop('Counter', 0).animate({
       Counter: $(this).parent().data('percent')
     }, {
@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
   });
 
-  return $('.skill-box .skills-circle li').each(function (i) {
+  return $('.skill-box .skills-circle li').each(function(i) {
     const _right = $(this).find('.bar-circle-right');
     const _left = $(this).find('.bar-circle-left');
     const _percent = $(this).attr('data-percent');
