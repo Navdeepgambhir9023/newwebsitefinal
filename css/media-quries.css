@@ -51,11 +51,31 @@
 
 @media (min-width: 300px) {
   svg {
-    width: 656px;
+    width: 657px;
   }
 
   body {
     height: 140rem;
+  }
+}
+
+@media (min-width: 400px) {
+  svg {
+    width: 657px;
+  }
+
+  body {
+    height: 140rem;
+  }
+}
+
+@media (min-width: 500px) {
+  svg {
+    width: 657px;
+  }
+
+  body {
+    height: 142rem;
   }
 }
 
