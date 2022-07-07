@@ -43,6 +43,10 @@
   svg {
     width: 656px;
   }
+
+  body {
+    height: 140rem;
+  }
 }
 
 @media (min-width: 300px) {
@@ -65,6 +69,10 @@
   svg {
     width: 768px;
   }
+
+  body {
+    height: 137rem;
+  }
 }
 
 @media (min-width: 800px) {
@@ -73,7 +81,7 @@
   }
 
   body {
-    height: 113rem;
+    height: 130rem;
   }
 }
 
@@ -83,7 +91,7 @@
   }
 
   body {
-    height: 104rem;
+    height: 126rem;
   }
 }
 
@@ -93,7 +101,7 @@
   }
 
   body {
-    height: 97rem;
+    height: 108rem;
   }
 }
 
@@ -103,7 +111,7 @@
   }
 
   body {
-    height: 7rem;
+    height: 96rem;
   }
 }
 
