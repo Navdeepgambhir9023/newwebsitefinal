@@ -91,74 +91,73 @@
   }
 }
 
-  @media (min-width: 720px) {
-    svg {
-      width: 720px;
-    }
-
-    body {
-      height: 137rem;
-    }
+@media (min-width: 720px) {
+  svg {
+    width: 720px;
   }
 
-  @media (min-width: 800px) {
-    svg {
-      width: 820px;
-    }
+  body {
+    height: 137rem;
+  }
+}
 
-    body {
-      height: 130rem;
-    }
+@media (min-width: 800px) {
+  svg {
+    width: 820px;
   }
 
-  @media (min-width: 900px) {
-    svg {
-      width: 912px;
-    }
+  body {
+    height: 130rem;
+  }
+}
 
-    body {
-      height: 126rem;
-    }
+@media (min-width: 900px) {
+  svg {
+    width: 912px;
   }
 
-  @media (min-width: 1000px) {
-    svg {
-      width: 1024px;
-    }
+  body {
+    height: 126rem;
+  }
+}
 
-    body {
-      height: 108rem;
-    }
+@media (min-width: 1000px) {
+  svg {
+    width: 1024px;
   }
 
-  @media (min-width: 1200px) {
-    svg {
-      width: 1280px;
-    }
+  body {
+    height: 108rem;
+  }
+}
 
-    body {
-      height: 88rem;
-    }
+@media (min-width: 1200px) {
+  svg {
+    width: 1280px;
   }
 
-  @media (min-width: 1300px) {
-    svg {
-      width: 1356px;
-    }
+  body {
+    height: 88rem;
+  }
+}
 
-    body {
-      height:
-    }
+@media (min-width: 1300px) {
+  svg {
+    width: 1356px;
   }
 
-  @media (min-width: 1400px) {
-    svg {
-      width: 1456px;
-    }
+  body {
+    height:
+  }
+}
 
-    body {
-      height:
-    }
+@media (min-width: 1400px) {
+  svg {
+    width: 1456px;
+  }
+
+  body {
+    height:
   }
 }
 
