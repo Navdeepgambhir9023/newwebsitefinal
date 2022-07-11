@@ -87,13 +87,13 @@
 
 @media (min-width: 700px) {
   svg {
-    width: 768px;
+    width: 720px;
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 730px) {
   svg {
-    width: 720px;
+    width: 768px;
   }
 
   body {
@@ -137,7 +137,7 @@
   }
 
   body {
-    height: 88rem;
+    height: 96rem;
   }
 }
 
@@ -147,7 +147,7 @@
   }
 
   body {
-    height:
+    height: 87.5rem;
   }
 }
 
@@ -164,7 +164,6 @@
 @media (max-width:820px) {
   .top_header {
     padding: 1rem;
-    display: block;
   }
 
   .top_header section {
