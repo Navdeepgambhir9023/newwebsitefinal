@@ -173,12 +173,12 @@ html {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 50px;
+  margin: 5% 15%;
 }
 
 .about-img {
-  margin: ;
-  width: 45%;
+  height: 400px;
+  width: 400px;
 }
 
 .website-logo {
@@ -197,7 +197,7 @@ html {
 }
 
 .about-para {
-  width: 55%;
+  width: 50%;
   text-align: justify;
   color: white;
 }
