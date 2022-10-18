@@ -38,7 +38,7 @@ html {
   left: 50%;
   transform: translate(-50%, 0.1%);
   width: 90%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba( 255, 255, 255, 0 );
   transition: all 0.3s ease;
   padding: 10px !important;
   z-index: 0;
@@ -47,12 +47,15 @@ html {
 
 .blur {
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 .navbar.sticky {
-  background: #112B3C;
+  background: rgba(17, 43, 60, 0.7);
   padding: 5px !important;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0.1px 60px grey;
 }
 
 .navbar-brand {
@@ -172,20 +175,16 @@ html {
   padding: 100px 0px;
 }
 
-.svg {
-  width: 15%;
-  float: right;
-}
-
 .about-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 5% 15%;
+  margin: auto;
 }
 
 .about-img {
+  margin: auto;
   height: 400px;
   width: 400px;
 }
@@ -196,18 +195,11 @@ html {
   background-color: white;
   object-fit: cover;
   border-radius: 50%;
-  object-fit: cover;
-}
-
-.about-text {
-  font-size: 45px;
-  font-weight: 600;
-  margin-bottom: 10px;
 }
 
 .about-para {
-  width: 50%;
   text-align: justify;
+  margin: 5%;
   color: white;
 }
 
