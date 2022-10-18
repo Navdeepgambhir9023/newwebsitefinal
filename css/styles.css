@@ -35,22 +35,26 @@ html {
 ==================================================== */
 .navbar {
   position: fixed !important;
-  width: 100%;
-  background: transparent;
+  left: 50%;
+  transform: translate(-50%, 0.1%);
+  width: 90%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
   transition: all 0.3s ease;
   padding: 10px !important;
   z-index: 0;
+  border-radius: 20px;
 }
 
 .navbar.sticky {
   background: #112B3C;
-  padding: 1px !important;
+  padding: 5px !important;
 }
 
 .navbar-brand {
   color: white;
   font-size: 1.75rem !important;
-  padding: 20px 20px 15px 50px !important;
+  padding: 20px 20px 15px 20px !important;
   font-weight: bold;
 }
 
@@ -76,7 +80,8 @@ html {
 }
 
 .collapse {
-  padding-right: 40px;
+  padding-left: 12px;
+  transition: all 0.3s ease;
 }
 
 /* menu btn styling */
