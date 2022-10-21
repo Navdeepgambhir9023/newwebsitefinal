@@ -172,7 +172,7 @@ html {
 /* about section */
 .about-me {
   background-color: #1e1e1e;
-  padding: 100px 0px;
+  padding: 120px 0px;
 }
 
 .about-content {
@@ -181,6 +181,7 @@ html {
   align-items: center;
   justify-content: space-between;
   margin: auto;
+  padding: 50px 0px;
 }
 
 .about-img {
@@ -216,7 +217,7 @@ html {
 
 .skill-box {
   width: 100%;
-  padding-top: 85px;
+  padding: 85px 0px;
   text-align: center;
   background-color: ;
   border-radius: 5px;
@@ -344,13 +345,12 @@ html {
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
+  margin: 50px 0px;
 }
 
 .qualification-content {
   margin: auto;
   text-align: center;
-  margin: 50px;
-  height: 100%;
 }
 
 .qualification-content h1 {

@@ -39,13 +39,23 @@
 }
 
 /* Svg Width and Body Height media Quries */
+@media (min-width: 100px) {
+  svg {
+    width: 656px;
+  }
+
+  body {
+    height: 145.5rem;
+  }
+}
+
 @media (min-width: 200px) {
   svg {
     width: 656px;
   }
 
   body {
-    height: 140rem;
+    height: 145.5rem;
   }
 }
 
@@ -55,7 +65,7 @@
   }
 
   body {
-    height: 140rem;
+    height: 145.5em;
   }
 }
 
@@ -65,7 +75,7 @@
   }
 
   body {
-    height: 140rem;
+    height: 145.5em;
   }
 }
 
@@ -75,13 +85,16 @@
   }
 
   body {
-    height: 142rem;
+    height: 147.5em;
   }
 }
 
 @media (min-width: 600px) {
   svg {
-    width: 668px;
+    width: 656px;
+  }
+  body {
+    height: 145.5em;
   }
 }
 
@@ -93,81 +106,102 @@
 
 @media (min-width: 730px) {
   svg {
-    width: 768px;
+    width: 750px;
   }
 
   body {
-    height: 137rem;
+    height: 143em;
   }
 }
 
 @media (min-width: 800px) {
   svg {
-    width: 820px;
+    width: 850px;
   }
 
   body {
-    height: 130rem;
+    height: 134em;
   }
 }
 
 @media (min-width: 900px) {
   svg {
-    width: 950px;
+    width: 960px;
   }
 
   body {
-    height: 135rem;
+    height: 134.5em;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
   svg {
     width: 1024px;
   }
 
   body {
-    height: 108rem;
+    height: 121em;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1152px) {
+  svg {
+    width: 1152px;
+  }
+
+  body {
+    height: 112em;
+  }
+}
+
+@media (min-width: 1280px) {
   svg {
     width: 1280px;
   }
 
   body {
-    height: 96rem;
+    height: 101em;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1366px) {
   svg {
-    width: 1356px;
+    width: 1400px;
   }
 
   body {
-    height: 87.5rem;
+    height: 101em;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   svg {
-    width: 1456px;
+    width: 1600px;
   }
 
   body {
-    height:
+    height: 92.8em;
+  }
+}
+
+
+@media (min-width: 1680px) {
+  svg {
+    width: 1680px;
+  }
+
+  body {
+    height: 92.8em;
   }
 }
 
 @media (min-width: 1920px) {
   svg {
-    width: 1926px;
+    width: 1920px;
   }
 
   body {
-    height: 91.7rem;
+    height: 92.6em;
   }
 }
 
